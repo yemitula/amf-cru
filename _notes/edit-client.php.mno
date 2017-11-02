@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MMGuideColor" value="#00FF00" />
+	<infoitem key="MMGuideVisible" value="true" />
+	<infoitem key="MMGuideLocked" value="false" />
+	<infoitem key="MMSnapToGuide" value="true" />
+	<infoitem key="MMGuidesSnapToElements" value="true" />
+	<infoitem key="MMDistanceColor" value="#0000FF" />
+	<infoitem key="UD_clients" value="name:id;datatype:int,name:title;datatype:string,name:firstname;datatype:string,name:surname;datatype:string,name:designation;datatype:string,name:level;datatype:string,name:influenceRating;datatype:int,name:areaOfInterface;datatype:string,name:email;datatype:string,name:organisation;datatype:string,name:houseNum;datatype:string,name:street;datatype:string,name:area;datatype:string,name:city;datatype:string,name:state;datatype:string,name:staff_id;datatype:int" />
+	<infoitem key="UD_client" value="name:id;datatype:int,name:title;datatype:string,name:firstname;datatype:string,name:surname;datatype:string,name:designation;datatype:string,name:level;datatype:string,name:influenceRating;datatype:int,name:areaOfInterface;datatype:string,name:typeOfService;datatype:string,name:email;datatype:string,name:organisation;datatype:string,name:houseNum;datatype:string,name:street;datatype:string,name:area;datatype:string,name:city;datatype:string,name:state;datatype:string,name:staff_id;datatype:int" />
+	<infoitem key="MMGuideCount" value="3" />
+	<infoitem key="MMGuide0" value="vertical: user 617 px" />
+	<infoitem key="MMGuide1" value="vertical: user 1013 px" />
+	<infoitem key="MMGuide2" value="vertical: user 309 px" />
+</info>

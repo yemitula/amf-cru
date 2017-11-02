@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_response" value="name:response_id;datatype:int,name:email;datatype:string,name:name;datatype:blob,name:dateOfTest;datatype:date,name:question1;datatype:blob,name:question2;datatype:blob,name:question3;datatype:blob,name:question4;datatype:blob,name:question5;datatype:blob,name:question6;datatype:blob,name:question7;datatype:blob,name:question8;datatype:blob,name:question9;datatype:blob,name:question10;datatype:blob,name:question11;datatype:blob,name:question12;datatype:blob,name:question13;datatype:blob,name:question14;datatype:blob,name:question15;datatype:blob,name:question16;datatype:blob,name:question17;datatype:blob,name:question18;datatype:blob,name:question19;datatype:blob,name:question20;datatype:blob,name:score;datatype:int,name:veriCode;datatype:string" />
+	<infoitem key="UD_questions" value="name:question_id;datatype:int,name:question;datatype:blob,name:qType;datatype:int,name:correctAns;datatype:string" />
+</info>

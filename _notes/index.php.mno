@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MMGuideColor" value="#00FF00" />
+	<infoitem key="MMGuideVisible" value="true" />
+	<infoitem key="MMGuideLocked" value="false" />
+	<infoitem key="MMSnapToGuide" value="true" />
+	<infoitem key="MMGuidesSnapToElements" value="true" />
+	<infoitem key="MMDistanceColor" value="#0000FF" />
+	<infoitem key="UD_s2questions" value="name:question_id;datatype:int,name:qSection;datatype:int,name:qNumber;datatype:int,name:question;datatype:blob" />
+	<infoitem key="UD_Recordset1" value="name:question_id;datatype:int,name:qSection;datatype:int,name:qNumber;datatype:int,name:question;datatype:blob" />
+	<infoitem key="UD_s3questions" value="name:question_id;datatype:int,name:qSection;datatype:int,name:qNumber;datatype:int,name:question;datatype:blob" />
+	<infoitem key="MMGuideCount" value="3" />
+	<infoitem key="MMGuide0" value="vertical: user 982 px" />
+	<infoitem key="MMGuide1" value="vertical: user 1013 px" />
+	<infoitem key="MMGuide2" value="vertical: user 54 px" />
+</info>
