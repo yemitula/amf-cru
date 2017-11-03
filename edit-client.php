@@ -249,7 +249,7 @@ $(function()
                     <label for="level"></label>
                     <select name="level" class="w308" id="level">
                       <option value="" <?php if (!(strcmp("", $row_client['level']))) {echo "selected=\"selected\"";} ?>>Select...</option>
-                      <option value="Most Senior Executive" <?php if (!(strcmp("Most Senior Executive", $row_client['level']))) {echo "selected=\"selected\"";} ?>>Most Senior Executive (e.g. MD/Chairman)</option>
+                      <option value="Most Senior Executive" <?php if (!(strcmp("Most Senior Executive", $row_client['level']))) {echo "selected=\"selected\"";} ?>>Most Senior Executive (e.g.CEO/MD/Chairman)</option>
                       <option value="Director/Executive" <?php if (!(strcmp("Director/Executive", $row_client['level']))) {echo "selected=\"selected\"";} ?>>Director/Executive</option>
                       <option value="Senior Manager" <?php if (!(strcmp("Senior Manager", $row_client['level']))) {echo "selected=\"selected\"";} ?>>Senior Manager</option>
                       <option value="Manager" <?php if (!(strcmp("Manager", $row_client['level']))) {echo "selected=\"selected\"";} ?>>Manager</option>
@@ -282,7 +282,10 @@ $(function()
                       <option value="Work Supervision" <?php if (!(strcmp("Work Supervision", $row_client['areaOfInterface']))) {echo "selected=\"selected\"";} ?>>Work Supervision</option>
                       <option value="Service Provider" <?php if (!(strcmp("Service Provider", $row_client['areaOfInterface']))) {echo "selected=\"selected\"";} ?>>Service Provider</option>
                       <option value="EXCO Member (Residential)" <?php if (!(strcmp("EXCO Member (Residential)", $row_client['areaOfInterface']))) {echo "selected=\"selected\"";} ?>>EXCO Member (Residential)</option>
-<option value="End User" <?php if (!(strcmp("End User", $row_client['areaOfInterface']))) {echo "selected=\"selected\"";} ?>>End User</option>
+                      <option value="End User" <?php if (!(strcmp("End User", $row_client['areaOfInterface']))) {echo "selected=\"selected\"";} ?>>End User</option>
+                      <option value="Government Officials"<?php if(!(strcmp("Government Officials", $row_client['areaOfInterface']))){echo "selected=\"selected\"";}?>>Government Officials</option>
+                      <option value="Media(Journalist)"<?php if(!(strcmp("Media(Journalist)", $row_client['areaOfInterface']))){echo "selected=\"selected\"";}?>>Media(Journalist)</option>
+                      <option value="Doctors"<?php if(!(strcmp("Doctors", $row_client['areaOfInterface']))){echo "selected=\"selected\"";}?>>Doctors</option>
                     </select>
                   <span class="selectRequiredMsg">Please select an item.</span></span></td>
                   <td valign="top" class="smallText">State area of interface with AMF</td>

@@ -237,7 +237,7 @@ $(function()
                     <label for="level"></label>
                     <select name="level" class="w308" id="level">
                       <option value="">Select...</option>
-                      <option value="Most Senior Executive">Most Senior Executive (e.g. MD/Chairman)</option>
+                      <option value="Most Senior Executive">Most Senior Executive (e.g.CEO/MD/Chairman)</option>
                       <option value="Director/Executive">Director/Executive</option>
                       <option value="Senior Manager">Senior Manager</option>
                       <option value="Manager">Manager</option>
@@ -271,6 +271,9 @@ $(function()
                       <option value="Service Provider">Service Provider</option>
                       <option value="EXCO Member (Residential)">EXCO Member (Residential)</option>
                       <option value="End User">End User</option>
+                      <option value="Government Officials">Government Officials</option>
+                      <option value="Media(Journalist)">Media(Journalist)</option>
+                      <option value="Doctors">Doctors</option>
                     </select>
                   <span class="selectRequiredMsg">Please select an item.</span></span></td>
                   <td valign="top" class="smallText">State area of interface with AMF</td>
