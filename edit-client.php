@@ -235,7 +235,7 @@ $(function()
                 </tr>
                 
                 <tr>
-                  <td valign="top">Organisation/Residence</td>
+                  <td valign="top">Organization (If its a Residential Facility, kindly state the name of the Estate)</td>
                   <td valign="top"><span id="sprytextfield5">
                     <label for="organisation"></label>
                     <input name="organisation" type="text" class="w308" id="organisation" value="<?php echo $row_client['designation']; ?>" />
