@@ -222,7 +222,7 @@ $(function()
                   <td valign="top" class="smallText">If you are filling in for a residential facility, simply state if the person is an EXCO Member or an Occupant.</td>
                 </tr>
                 <tr>
-                  <td valign="top">Organisation/Residence</td>
+                  <td valign="top">Organization (If its a Residential Facility, kindly state the name of the Estate)</td>
                   <td valign="top"><span id="sprytextfield5">
                     <label for="organisation"></label>
                     <input name="organisation" type="text" class="w308" id="organisation" />
