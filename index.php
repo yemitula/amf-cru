@@ -184,7 +184,9 @@ $(function()
 
 <body>
 <div id="container">
-  <div id="header"><img src="images/header.jpg" width="850" height="126" alt="Welcome to Online Test" /></div>
+  <div id="header"><img src="images/AMF-Logo-Glow.gif" width="400" height="126" alt="Welcome to Online Test" />
+  <img src="images/iso.gif" width="400" height="156">
+  </div>
   <div id="body">
     <p class="bigHeading"><strong>Client Reps Update</strong></p>
     <p>&nbsp;</p>

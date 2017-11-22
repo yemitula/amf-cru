@@ -159,7 +159,9 @@ $(function()
 
 <body>
 <div id="container">
-  <div id="header"><img src="images/header.jpg" width="850" height="126" alt="Welcome to Online Test" /></div>
+  <div id="header"><img src="images/AMF-Logo-Glow.gif" width="400" height="126" alt="Welcome to Online Test" />
+  <img src="images/iso.gif" width="400" height="156">
+  </div>
   <div id="navbar">
     <div class="left"><a href="clients.php"><strong>Clients</strong></a> | <a href="add-client.php"><strong>Add Client</strong></a></div>
     <div class="right">Logged in as <strong><?php echo $Staff['name'] ?></strong> | <a href="logout.php"><strong>Logout</strong></a>
