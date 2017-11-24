@@ -329,7 +329,7 @@ $(function()
                   <td valign="top">State</td>
                   <td valign="top"><select name="state" id="state">
                     <option value="">Select...</option>
-                    <?php include("oldsite/lists/_inc_NigeriaStates.php"); ?>
+                    <?php include("lists/_inc_NigeriaStates.php"); ?>
                   </select></td>
                   <td valign="top">&nbsp;</td>
                 </tr>
