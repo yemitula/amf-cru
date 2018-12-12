@@ -38,12 +38,13 @@ if (isset($_SERVER['QUERY_STRING'])) {
 }
 
 if ((isset($_POST["MM_update"])) && ($_POST["MM_update"] == "formAddClient")) {
-  $updateSQL = sprintf("UPDATE clients SET title=%s, firstname=%s, surname=%s, designation=%s, `level`=%s, influenceRating=%s, typeOfService=%s, areaOfInterface=%s, email=%s, organisation=%s, buildingNum=%s, street=%s, area=%s, city=%s, `state`=%s WHERE id=%s",
+  $updateSQL = sprintf("UPDATE clients SET title=%s, firstname=%s, surname=%s, designation=%s, `level`=%s, location=%s, influenceRating=%s, typeOfService=%s, areaOfInterface=%s, email=%s, organisation=%s, buildingNum=%s, street=%s, area=%s, city=%s, `state`=%s WHERE id=%s",
                        GetSQLValueString($_POST['title'], "text"),
                        GetSQLValueString($_POST['firstname'], "text"),
                        GetSQLValueString($_POST['surname'], "text"),
                        GetSQLValueString($_POST['designation'], "text"),
                        GetSQLValueString($_POST['level'], "text"),
+                       GetSQLValueString($_POST['location'], "text"),
                        GetSQLValueString($_POST['influenceRating'], "int"),
                        GetSQLValueString($_POST['areaOfInterface'], "text"),
                        GetSQLValueString($_POST['typeOfService'], "text"),
@@ -257,6 +258,14 @@ $(function()
                     </select>
                   <span class="selectRequiredMsg">Please select an item.</span></span></td>
                   <td valign="top" class="smallText">At what level is this individual in the client's organisation?</td>
+                </tr>
+                <tr>
+                  <td valign="top">Location</td>
+                  <td valign="top"><span id="sprytextfield3">
+                    <label for="location"></label>
+                    <input name="location" type="text" class="w308" id="location" value="<?php echo $row_client['location']; ?>" />
+                  <span class="textfieldRequiredMsg">A value is required.</span></span></td>
+                  <td valign="top" class="smallText">Eg, PH, Lagos, Ghana, etc.</td>
                 </tr>
                 <tr>
                   <td valign="top">Influence Rating</td>
